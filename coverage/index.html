@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2023-06-29T17:53:12+05:30">2023-06-29T17:53:12+05:30</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2023-06-30T10:38:29+05:30">2023-06-30T10:38:29+05:30</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -23,7 +23,7 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="green">
-  96.05%
+  96.44%
 </span>
 
      </span>
@@ -43,11 +43,11 @@
   </div>
 
   <div class="t-line-summary">
-    <b>532</b> relevant lines,
-    <span class="green"><b>511</b> lines covered</span> and
-    <span class="red"><b>21</b> lines missed. </span>
+    <b>533</b> relevant lines,
+    <span class="green"><b>514</b> lines covered</span> and
+    <span class="red"><b>19</b> lines missed. </span>
     (<span class="green">
-  96.05%
+  96.44%
 </span>
 )
   </div>
@@ -139,7 +139,7 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#fd1285d88fa5a1ddc15f0ffbbfa37cfc221fbe88" class="src_link" title="app/controllers/users/registrations_controller.rb">app/controllers/users/registrations_controller.rb</a></td>
             <td class="green strong cell--number t-file__coverage">91.67 %</td>
-            <td class="cell--number">62</td>
+            <td class="cell--number">61</td>
             <td class="cell--number">24</td>
             <td class="cell--number">22</td>
             <td class="cell--number">2</td>
@@ -501,12 +501,12 @@
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#d6231b6a2d4865453821b009715c22a8d9518a83" class="src_link" title="spec/models/qualification_spec.rb">spec/models/qualification_spec.rb</a></td>
-            <td class="red strong cell--number t-file__coverage">80.00 %</td>
-            <td class="cell--number">16</td>
-            <td class="cell--number">10</td>
-            <td class="cell--number">8</td>
-            <td class="cell--number">2</td>
-            <td class="cell--number">0.80</td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">17</td>
+            <td class="cell--number">11</td>
+            <td class="cell--number">11</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.00</td>
             
           </tr>
         
@@ -4299,7 +4299,7 @@
 
             
 
-            <code class="ruby">          # Twilio::SmsService.(to: resource.full_phone_number, pin: &#39;&#39;).send_otp</code>
+            <code class="ruby">          # Twilio::SmsService.new(to: resource.full_phone_number, pin: &#39;&#39;).send_otp</code>
           </li>
         </div>
       
@@ -4651,7 +4651,7 @@
 
             
 
-            <code class="ruby">              type: &quot;sms-otp&quot;,</code>
+            <code class="ruby">              meta: { token: token },</code>
           </li>
         </div>
       
@@ -4662,7 +4662,7 @@
 
             
 
-            <code class="ruby">              meta: { token: token },</code>
+            <code class="ruby">              message: &quot;Account already exists, Verification code has been sent on your phone number, Please verify your phone number number to activate your account&quot;</code>
           </li>
         </div>
       
@@ -4673,7 +4673,7 @@
 
             
 
-            <code class="ruby">              message: &quot;Account already exists, Verification code has been sent on your phone number, Please verify your phone number number to activate your account&quot;</code>
+            <code class="ruby">            }, status: 200</code>
           </li>
         </div>
       
@@ -4684,7 +4684,7 @@
 
             
 
-            <code class="ruby">            }, status: 200</code>
+            <code class="ruby">          end</code>
           </li>
         </div>
       
@@ -4695,23 +4695,12 @@
 
             
 
-            <code class="ruby">          end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="48">
-            
-            
-
-            
-
             <code class="ruby">        else</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="49">
+          <li class="covered" data-hits="1" data-linenumber="48">
             <span class="hits">1</span>
             
 
@@ -4722,7 +4711,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="50">
+          <li class="never" data-hits="" data-linenumber="49">
             
             
 
@@ -4733,7 +4722,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="51">
+          <li class="never" data-hits="" data-linenumber="50">
             
             
 
@@ -4744,7 +4733,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="52">
+          <li class="never" data-hits="" data-linenumber="51">
             
             
 
@@ -4755,7 +4744,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="53">
+          <li class="covered" data-hits="1" data-linenumber="52">
             <span class="hits">1</span>
             
 
@@ -4766,7 +4755,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="54">
+          <li class="never" data-hits="" data-linenumber="53">
             
             
 
@@ -4777,7 +4766,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="55">
+          <li class="never" data-hits="" data-linenumber="54">
             
             
 
@@ -4788,7 +4777,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="56">
+          <li class="never" data-hits="" data-linenumber="55">
             
             
 
@@ -4799,7 +4788,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="57">
+          <li class="covered" data-hits="1" data-linenumber="56">
             <span class="hits">1</span>
             
 
@@ -4810,7 +4799,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="58">
+          <li class="never" data-hits="" data-linenumber="57">
             
             
 
@@ -4821,7 +4810,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="59">
+          <li class="covered" data-hits="1" data-linenumber="58">
             <span class="hits">1</span>
             
 
@@ -4832,7 +4821,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="4" data-linenumber="60">
+          <li class="covered" data-hits="4" data-linenumber="59">
             <span class="hits">4</span>
             
 
@@ -4843,7 +4832,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="61">
+          <li class="never" data-hits="" data-linenumber="60">
             
             
 
@@ -4854,7 +4843,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="62">
+          <li class="never" data-hits="" data-linenumber="61">
             
             
 
@@ -15332,7 +15321,7 @@
 
             
 
-            <code class="ruby">    jwt.secret = Rails.application.credentials.fetch(:secret_key_base)</code>
+            <code class="ruby">    jwt.secret = Rails.application.credentials.secret_key_base</code>
           </li>
         </div>
       
@@ -16490,7 +16479,7 @@
 
             
 
-            <code class="ruby">    post &#39;accounts/sms_confirmation&#39;, to: &#39;accounts#sms_confirmation&#39;</code>
+            <code class="ruby">    post &#39;accounts/otp_verification&#39;, to: &#39;accounts#otp_verification&#39;</code>
           </li>
         </div>
       
@@ -16501,7 +16490,7 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">  </code>
           </li>
         </div>
       
@@ -18350,8 +18339,8 @@
   <div class="header">
     <h3>spec/models/qualification_spec.rb</h3>
     <h4>
-      <span class="red">
-  80.0%
+      <span class="green">
+  100.0%
 </span>
 
       lines covered
@@ -18360,9 +18349,9 @@
     
 
     <div class="t-line-summary">
-      <b>10</b> relevant lines.
-      <span class="green"><b>8</b> lines covered</span> and
-      <span class="red"><b>2</b> lines missed.</span>
+      <b>11</b> relevant lines.
+      <span class="green"><b>11</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
 
     
@@ -18412,7 +18401,7 @@
 
             
 
-            <code class="ruby">  describe &#39;Checks the valid Qualification&#39; do</code>
+            <code class="ruby">  let(:qualification) { FactoryBot.create(:qualification) }</code>
           </li>
         </div>
       
@@ -18423,7 +18412,7 @@
 
             
 
-            <code class="ruby">    it &#39;checks the presence of valid name&#39; do</code>
+            <code class="ruby">  describe &#39;Checks the valid Qualification&#39; do</code>
           </li>
         </div>
       
@@ -18434,7 +18423,7 @@
 
             
 
-            <code class="ruby">      qualification = create(:qualification)</code>
+            <code class="ruby">    it &#39;checks the presence of valid name&#39; do</code>
           </li>
         </div>
       
@@ -18445,18 +18434,18 @@
 
             
 
-            <code class="ruby">      expect(qualification).to be_valid</code>
+            <code class="ruby">      qualification = build(:qualification)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="8">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">    end</code>
+            
+
+            <code class="ruby">      expect(qualification).to be_valid</code>
           </li>
         </div>
       
@@ -18467,18 +18456,18 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">    end</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="10">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="10">
+            
             
 
             
 
-            <code class="ruby">    it &#39;checks the presence of name&#39; do</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -18489,13 +18478,24 @@
 
             
 
-            <code class="ruby">      qualification = create(:qualification, name: nil)</code>
+            <code class="ruby">    it &#39;checks the presence of name&#39; do</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="12">
+          <li class="covered" data-hits="1" data-linenumber="12">
+            <span class="hits">1</span>
             
+
+            
+
+            <code class="ruby">      qualification = build(:qualification, name: nil)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="13">
+            <span class="hits">1</span>
             
 
             
@@ -18505,24 +18505,13 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="13">
-            
-            
-
-            
-
-            <code class="ruby">      expect(response.errors[:name]).to include(&quot;can&#39;t be blank&quot;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="14">
-            
+          <li class="covered" data-hits="1" data-linenumber="14">
+            <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    end</code>
+            <code class="ruby">      expect(qualification.errors[:name]).to include(&quot;can&#39;t be blank&quot;)</code>
           </li>
         </div>
       
@@ -18533,12 +18522,23 @@
 
             
 
-            <code class="ruby">  end</code>
+            <code class="ruby">    end</code>
           </li>
         </div>
       
         <div>
           <li class="never" data-hits="" data-linenumber="16">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="17">
             
             
 
