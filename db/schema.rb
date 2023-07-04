@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_06_27_094157) do
+ActiveRecord::Schema[7.0].define(version: 2023_06_30_084400) do
   create_table "academics", force: :cascade do |t|
     t.string "college_name"
     t.integer "interest_id", null: false
@@ -84,10 +84,34 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_27_094157) do
     t.index ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true
   end
 
+  create_table "assessment_questions", force: :cascade do |t|
+    t.string "question"
+    t.string "correct_option"
+    t.string "level"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "assessment_id", null: false
+    t.index ["assessment_id"], name: "index_assessment_questions_on_assessment_id"
+  end
+
+  create_table "assessments", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "interests", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "options", force: :cascade do |t|
+    t.string "choice"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "assessment_question_id", null: false
+    t.index ["assessment_question_id"], name: "index_options_on_assessment_question_id"
   end
 
   create_table "qualifications", force: :cascade do |t|
@@ -125,4 +149,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_27_094157) do
   add_foreign_key "academics", "users"
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
   add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
+  add_foreign_key "assessment_questions", "assessments"
+  add_foreign_key "options", "assessment_questions"
 end
