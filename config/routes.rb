@@ -19,6 +19,14 @@ Rails.application.routes.draw do
     resources :qualifications, only: [:create, :new, :index]
     resources :academics, only: [:index, :create, :update, :destroy]
     resources :users, only: [:show]
+    resources :assessments do
+      member do
+        get 'show_questions'
+        post '/assessment_questions/:question_id/submit_answer', to: 'assessments#submit_answer', as: 'submit_answer'
+      end
+    end
+    resources :assessment_questions, only: [:index, :create, :update, :show, :destroy]
+    resources :options, only: [:create, :update, :index]
 end
 
 
