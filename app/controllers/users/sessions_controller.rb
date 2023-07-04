@@ -12,8 +12,14 @@ class Users::SessionsController < Devise::SessionsController
        user: user,
        academic: user.academic
       }, status: 200
+    elsif user && user.valid_password?(params[:user][:password])
+      render json: {
+        message: 'Add academic record to log in' 
+      },status: 404
     else
-      render json: { status: 401, message: 'Invalid password or missing academic record.' }, status: :unauthorized
+      render json:{
+        message: "invalid password or email"
+      },status: 401
     end
   end
 
