@@ -82,3 +82,5 @@ gem 'twilio-ruby'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'activestorage'
 gem 'simplecov', '~> 0.22.0'
+gem 'active_model_serializers'
+gem 'fast_jsonapi'
