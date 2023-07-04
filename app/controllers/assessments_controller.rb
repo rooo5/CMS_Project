@@ -98,15 +98,21 @@ class AssessmentsController < ApplicationController
     def show_questions
         if current_user.role == "student"
             assessment = Assessment.find(params[:id])
+            difficult = params[:difficult]
+    
             questions = assessment.assessment_questions.includes(:options)
-            
+    
+            if difficult.present?
+                questions = questions.where("level LIKE ?", "%#{difficult}%")
+            end
+
             if questions.any?
-            render json: questions.to_json(only: [:id , :question ], include: { options: {only: [:choice]} })
+                render json: questions.to_json(only: [:id , :question ], include: { options: {only: [:choice]} })
             else
-            render json: {
-                message: "No Questions Found for the Assessment",
-                questions: []
-            }, status: :not_found
+                render json: {
+                    message: "No Questions Found for the Assessment",
+                    questions: []
+                },  status: :not_found
             end
         else
             render json: {
