@@ -2,17 +2,23 @@ class QualificationsController < ApplicationController
     # before_action :set_qualification, only: [:show, :edit, :update]
 
     def index
-        @qualifications = Qualification.all
-        if @qualifications.empty?
-            render json: {
-                message: "No Qualification Found",
-                qualifications: []
-            }, status: 404
+        if current_user.role == "admin"
+            @qualifications = Qualification.all
+            if @qualifications.empty?
+                render json: {
+                    message: "No Qualification Found",
+                    qualifications: []
+                }, status: 404
+            else
+                render json: {
+                    message: "Found Qualification",
+                    qualifications: @qualifications
+                }, status: 200
+            end
         else
             render json: {
-                message: "Found Qualification",
-                qualifications: @qualifications
-            }, status: 200
+                message: "You are not authorized to perform this action"
+            }, status: 401
         end
     end
 
@@ -21,15 +27,21 @@ class QualificationsController < ApplicationController
     # end
 
     def create
-        @qualification = Qualification.new(qualification_params)
-        if @qualification.save
-            render json: {
-                message: "Qualification created successfully"
-            }, status: :ok
+        if current_user.role == "admin"
+            @qualification = Qualification.new(qualification_params)
+            if @qualification.save
+                render json: {
+                    message: "Qualification created successfully"
+                }, status: :ok
+            else
+                render json: {
+                    message: "Unprosseable Entity"
+                }, status: 422
+            end
         else
             render json: {
-                message: "Unprosseable Entity"
-            }, status: 422
+                message: "You are not autharized to perform this action"
+            }, status: 401
         end
     end
 
