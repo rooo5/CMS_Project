@@ -1,18 +1,25 @@
 class InterestsController < ApplicationController
     # before_action :set_interest, only: [:show, :edit, :update]
+    skip_before_action :verify_authenticity_token
 
     def index
-        @interests = Interest.all
-        if @interests.empty?
-            render json: {
-                message: "No Interests Found",
-                interests: []
-            }, status: 404
+        if current_user.role == "admin"
+            @interests = Interest.all
+            if @interests.empty?
+                render json: {
+                    message: "No Interests Found",
+                    interests: []
+                }, status: 404
+            else
+                render json: {
+                    message: "Found Interests",
+                    interests: @interests
+                }, status: 200
+            end
         else
             render json: {
-                message: "Found Interests",
-                interests: @interests
-            }, status: 200
+                message: "You are not authorized to perform this action"
+            }, status: 401
         end
     end
 
@@ -21,15 +28,21 @@ class InterestsController < ApplicationController
     # end
 
     def create
-        @interest = Interest.new(interest_params)
-        if @interest.save
-            render json: {
-                message: "Interest created successfully"
-            }, status: :ok
+        if current_user.role == "admin"
+            @interest = Interest.new(interest_params)
+            if @interest.save
+                render json: {
+                    message: "Interest created successfully"
+                }, status: :ok
+            else
+                render json: {
+                    message: "Unprosseable Entity"
+                }, status: 422
+            end
         else
             render json: {
-                message: "Unprosseable Entity"
-            }, status: 422
+                message: "Only admin can create the interest"
+            }, status: 401
         end
     end
 
