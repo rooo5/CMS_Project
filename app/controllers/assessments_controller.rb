@@ -126,7 +126,7 @@ class AssessmentsController < ApplicationController
                 render json: {
                     question_id: question.id,
                     submitted_answer: submitted_answer,
-                    correct_answer: question.c orrect_option,
+                    correct_answer: question.correct_option,
                     is_correct: is_correct
                 }
             else
