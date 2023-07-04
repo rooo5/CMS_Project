@@ -117,23 +117,23 @@ class AssessmentsController < ApplicationController
 
     def submit_answer
         if current_user.role == "student"
-            assessment = Assessment.find(params[:assessment_id])
+            assessment = Assessment.find(params[:id])
             question = assessment.assessment_questions.find(params[:question_id])
             submitted_answer = params[:answer] 
         
             if question && submitted_answer
-            is_correct = (submitted_answer == question.correct_option)
-            render json: {
-                question_id: question.id,
-                submitted_answer: submitted_answer,
-                correct_answer: question.correct_option,
-                is_correct: is_correct
-            }
+                is_correct = (submitted_answer == question.correct_option)
+                render json: {
+                    question_id: question.id,
+                    submitted_answer: submitted_answer,
+                    correct_answer: question.c orrect_option,
+                    is_correct: is_correct
+                }
             else
-            render json: {
-                message: "Invalid Submission",
-                errors: "Question not found or answer not provided"
-            }, status: :unprocessable_entity
+                render json: {
+                    message: "Invalid Submission",
+                    errors: "Question not found or answer not provided"
+                }, status: :unprocessable_entity
             end
         else
             render json: {
