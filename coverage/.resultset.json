@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "C:/CCI/cms/spec/helpers/assessment_questions_helper_spec.rb": {
+      "C:/Assignment/CMS_Project/spec/helpers/assessment_questions_helper_spec.rb": {
         "lines": [
           1,
           null,
@@ -20,7 +20,7 @@
           null
         ]
       },
-      "C:/CCI/cms/spec/rails_helper.rb": {
+      "C:/Assignment/CMS_Project/spec/rails_helper.rb": {
         "lines": [
           null,
           1,
@@ -89,7 +89,7 @@
           null
         ]
       },
-      "C:/CCI/cms/config/environment.rb": {
+      "C:/Assignment/CMS_Project/config/environment.rb": {
         "lines": [
           null,
           1,
@@ -98,7 +98,7 @@
           1
         ]
       },
-      "C:/CCI/cms/config/application.rb": {
+      "C:/Assignment/CMS_Project/config/application.rb": {
         "lines": [
           1,
           null,
@@ -124,7 +124,7 @@
           null
         ]
       },
-      "C:/CCI/cms/config/boot.rb": {
+      "C:/Assignment/CMS_Project/config/boot.rb": {
         "lines": [
           1,
           null,
@@ -132,7 +132,7 @@
           1
         ]
       },
-      "C:/CCI/cms/config/environments/test.rb": {
+      "C:/Assignment/CMS_Project/config/environments/test.rb": {
         "lines": [
           1,
           null,
@@ -196,7 +196,7 @@
           null
         ]
       },
-      "C:/CCI/cms/config/initializers/active_admin.rb": {
+      "C:/Assignment/CMS_Project/config/initializers/active_admin.rb": {
         "lines": [
           1,
           null,
@@ -552,7 +552,7 @@
           null
         ]
       },
-      "C:/CCI/cms/config/initializers/assets.rb": {
+      "C:/Assignment/CMS_Project/config/initializers/assets.rb": {
         "lines": [
           null,
           null,
@@ -568,383 +568,8 @@
           null
         ]
       },
-      "C:/CCI/cms/config/initializers/content_security_policy.rb": {
+      "C:/Assignment/CMS_Project/config/initializers/content_security_policy.rb": {
         "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "C:/CCI/cms/config/initializers/cors.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "C:/CCI/cms/config/initializers/devise.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           null,
           null,
           null,
@@ -972,7 +597,382 @@
           null
         ]
       },
-      "C:/CCI/cms/config/initializers/filter_parameter_logging.rb": {
+      "C:/Assignment/CMS_Project/config/initializers/cors.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Assignment/CMS_Project/config/initializers/devise.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Assignment/CMS_Project/config/initializers/filter_parameter_logging.rb": {
         "lines": [
           null,
           null,
@@ -984,7 +984,7 @@
           null
         ]
       },
-      "C:/CCI/cms/config/initializers/inflections.rb": {
+      "C:/Assignment/CMS_Project/config/initializers/inflections.rb": {
         "lines": [
           null,
           null,
@@ -1004,7 +1004,7 @@
           null
         ]
       },
-      "C:/CCI/cms/config/initializers/permissions_policy.rb": {
+      "C:/Assignment/CMS_Project/config/initializers/permissions_policy.rb": {
         "lines": [
           null,
           null,
@@ -1019,7 +1019,7 @@
           null
         ]
       },
-      "C:/CCI/cms/spec/factories/academics.rb": {
+      "C:/Assignment/CMS_Project/spec/factories/academics.rb": {
         "lines": [
           1,
           1,
@@ -1038,7 +1038,7 @@
           null
         ]
       },
-      "C:/CCI/cms/spec/factories/assessment_questions.rb": {
+      "C:/Assignment/CMS_Project/spec/factories/assessment_questions.rb": {
         "lines": [
           1,
           1,
@@ -1050,7 +1050,7 @@
           null
         ]
       },
-      "C:/CCI/cms/spec/factories/assessments.rb": {
+      "C:/Assignment/CMS_Project/spec/factories/assessments.rb": {
         "lines": [
           1,
           1,
@@ -1059,7 +1059,7 @@
           null
         ]
       },
-      "C:/CCI/cms/spec/factories/interests.rb": {
+      "C:/Assignment/CMS_Project/spec/factories/interests.rb": {
         "lines": [
           1,
           1,
@@ -1068,7 +1068,7 @@
           null
         ]
       },
-      "C:/CCI/cms/spec/factories/options.rb": {
+      "C:/Assignment/CMS_Project/spec/factories/options.rb": {
         "lines": [
           1,
           1,
@@ -1078,7 +1078,7 @@
           null
         ]
       },
-      "C:/CCI/cms/spec/factories/qualifications.rb": {
+      "C:/Assignment/CMS_Project/spec/factories/qualifications.rb": {
         "lines": [
           1,
           1,
@@ -1087,7 +1087,7 @@
           null
         ]
       },
-      "C:/CCI/cms/spec/factories/users.rb": {
+      "C:/Assignment/CMS_Project/spec/factories/users.rb": {
         "lines": [
           1,
           1,
@@ -1107,7 +1107,7 @@
           null
         ]
       },
-      "C:/CCI/cms/config/routes.rb": {
+      "C:/Assignment/CMS_Project/config/routes.rb": {
         "lines": [
           1,
           1,
@@ -1143,7 +1143,7 @@
           null
         ]
       },
-      "C:/CCI/cms/app/models/user.rb": {
+      "C:/Assignment/CMS_Project/app/models/user.rb": {
         "lines": [
           1,
           null,
@@ -1171,172 +1171,77 @@
           null
         ]
       },
-      "C:/CCI/cms/app/models/application_record.rb": {
+      "C:/Assignment/CMS_Project/app/models/application_record.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "C:/CCI/cms/app/controllers/application_controller.rb": {
+      "C:/Assignment/CMS_Project/app/controllers/application_controller.rb": {
         "lines": [
           1,
           13,
           null
         ]
       },
-      "C:/CCI/cms/app/helpers/application_helper.rb": {
+      "C:/Assignment/CMS_Project/app/helpers/application_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "C:/CCI/cms/app/helpers/academics_helper.rb": {
+      "C:/Assignment/CMS_Project/app/helpers/academics_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "C:/CCI/cms/app/helpers/accounts_helper.rb": {
+      "C:/Assignment/CMS_Project/app/helpers/accounts_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "C:/CCI/cms/app/helpers/assessment_questions_helper.rb": {
+      "C:/Assignment/CMS_Project/app/helpers/assessment_questions_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "C:/CCI/cms/app/helpers/assessments_helper.rb": {
+      "C:/Assignment/CMS_Project/app/helpers/assessments_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "C:/CCI/cms/app/helpers/interests_helper.rb": {
+      "C:/Assignment/CMS_Project/app/helpers/interests_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "C:/CCI/cms/app/helpers/options_helper.rb": {
+      "C:/Assignment/CMS_Project/app/helpers/options_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "C:/CCI/cms/app/helpers/qualifications_helper.rb": {
+      "C:/Assignment/CMS_Project/app/helpers/qualifications_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "C:/CCI/cms/app/helpers/users_helper.rb": {
+      "C:/Assignment/CMS_Project/app/helpers/users_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "C:/CCI/cms/app/models/admin_user.rb": {
+      "C:/Assignment/CMS_Project/app/models/admin_user.rb": {
         "lines": [
           1,
-          null,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "C:/CCI/cms/app/admin/admin_users.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          null,
-          null
-        ]
-      },
-      "C:/CCI/cms/app/admin/dashboard.rb": {
-        "lines": [
-          null,
-          1,
-          1,
-          null,
-          1,
-          0,
-          0,
-          0,
-          0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "C:/CCI/cms/spec/support/factory_bot.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "C:/CCI/cms/spec/helpers/assessments_helper_spec.rb": {
-        "lines": [
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           null,
           null,
           1,
@@ -1344,7 +1249,83 @@
           null
         ]
       },
-      "C:/CCI/cms/spec/helpers/options_helper_spec.rb": {
+      "C:/Assignment/CMS_Project/app/admin/admin_users.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Assignment/CMS_Project/app/admin/dashboard.rb": {
+        "lines": [
+          null,
+          1,
+          1,
+          null,
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Assignment/CMS_Project/spec/support/factory_bot.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "C:/Assignment/CMS_Project/spec/helpers/assessments_helper_spec.rb": {
         "lines": [
           1,
           null,
@@ -1363,7 +1344,26 @@
           null
         ]
       },
-      "C:/CCI/cms/spec/models/academic_spec.rb": {
+      "C:/Assignment/CMS_Project/spec/helpers/options_helper_spec.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "C:/Assignment/CMS_Project/spec/models/academic_spec.rb": {
         "lines": [
           1,
           null,
@@ -1449,7 +1449,7 @@
           null
         ]
       },
-      "C:/CCI/cms/app/models/academic.rb": {
+      "C:/Assignment/CMS_Project/app/models/academic.rb": {
         "lines": [
           1,
           1,
@@ -1462,52 +1462,7 @@
           null
         ]
       },
-      "C:/CCI/cms/spec/models/assessment_question_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "C:/CCI/cms/app/models/assessment_question.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "C:/CCI/cms/spec/models/assessment_spec.rb": {
+      "C:/Assignment/CMS_Project/spec/models/assessment_question_spec.rb": {
         "lines": [
           1,
           null,
@@ -1526,52 +1481,33 @@
           1,
           null,
           null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
           null,
           null
         ]
       },
-      "C:/CCI/cms/app/models/assessment.rb": {
+      "C:/Assignment/CMS_Project/app/models/assessment_question.rb": {
         "lines": [
           1,
           1,
           1,
-          null
-        ]
-      },
-      "C:/CCI/cms/spec/models/interest_spec.rb": {
-        "lines": [
           1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "C:/CCI/cms/app/models/interest.rb": {
-        "lines": [
-          1,
-          1,
-          null,
           1,
           null
         ]
       },
-      "C:/CCI/cms/spec/models/option_spec.rb": {
+      "C:/Assignment/CMS_Project/spec/models/assessment_spec.rb": {
         "lines": [
           1,
           null,
@@ -1590,10 +1526,43 @@
           1,
           null,
           null,
+          null,
           null
         ]
       },
-      "C:/CCI/cms/app/models/option.rb": {
+      "C:/Assignment/CMS_Project/app/models/assessment.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "C:/Assignment/CMS_Project/spec/models/interest_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Assignment/CMS_Project/app/models/interest.rb": {
         "lines": [
           1,
           1,
@@ -1602,7 +1571,38 @@
           null
         ]
       },
-      "C:/CCI/cms/spec/models/qualification_spec.rb": {
+      "C:/Assignment/CMS_Project/spec/models/option_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Assignment/CMS_Project/app/models/option.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "C:/Assignment/CMS_Project/spec/models/qualification_spec.rb": {
         "lines": [
           1,
           null,
@@ -1623,7 +1623,7 @@
           null
         ]
       },
-      "C:/CCI/cms/app/models/qualification.rb": {
+      "C:/Assignment/CMS_Project/app/models/qualification.rb": {
         "lines": [
           1,
           1,
@@ -1632,7 +1632,7 @@
           null
         ]
       },
-      "C:/CCI/cms/spec/models/user_spec.rb": {
+      "C:/Assignment/CMS_Project/spec/models/user_spec.rb": {
         "lines": [
           1,
           null,
@@ -1741,7 +1741,7 @@
           null
         ]
       },
-      "C:/CCI/cms/spec/requests/academics_spec.rb": {
+      "C:/Assignment/CMS_Project/spec/requests/academics_spec.rb": {
         "lines": [
           1,
           null,
@@ -1797,7 +1797,7 @@
           null
         ]
       },
-      "C:/CCI/cms/spec/requests/assessment_questions_spec.rb": {
+      "C:/Assignment/CMS_Project/spec/requests/assessment_questions_spec.rb": {
         "lines": [
           1,
           null,
@@ -1983,7 +1983,7 @@
           null
         ]
       },
-      "C:/CCI/cms/spec/requests/assessments_spec.rb": {
+      "C:/Assignment/CMS_Project/spec/requests/assessments_spec.rb": {
         "lines": [
           1,
           null,
@@ -2219,7 +2219,7 @@
           null
         ]
       },
-      "C:/CCI/cms/spec/requests/interests_spec.rb": {
+      "C:/Assignment/CMS_Project/spec/requests/interests_spec.rb": {
         "lines": [
           1,
           null,
@@ -2299,7 +2299,7 @@
           null
         ]
       },
-      "C:/CCI/cms/spec/requests/options_spec.rb": {
+      "C:/Assignment/CMS_Project/spec/requests/options_spec.rb": {
         "lines": [
           1,
           null,
@@ -2417,7 +2417,7 @@
           null
         ]
       },
-      "C:/CCI/cms/spec/requests/qualifications_spec.rb": {
+      "C:/Assignment/CMS_Project/spec/requests/qualifications_spec.rb": {
         "lines": [
           1,
           null,
@@ -2499,7 +2499,7 @@
           null
         ]
       },
-      "C:/CCI/cms/spec/requests/users/registrations_spec.rb": {
+      "C:/Assignment/CMS_Project/spec/requests/users/registrations_spec.rb": {
         "lines": [
           1,
           null,
@@ -2587,7 +2587,7 @@
           null
         ]
       },
-      "C:/CCI/cms/app/controllers/users/registrations_controller.rb": {
+      "C:/Assignment/CMS_Project/app/controllers/users/registrations_controller.rb": {
         "lines": [
           1,
           null,
@@ -2652,7 +2652,7 @@
           null
         ]
       },
-      "C:/CCI/cms/spec/requests/users_spec.rb": {
+      "C:/Assignment/CMS_Project/spec/requests/users_spec.rb": {
         "lines": [
           1,
           null,
@@ -2684,7 +2684,7 @@
           null
         ]
       },
-      "C:/CCI/cms/app/controllers/users_controller.rb": {
+      "C:/Assignment/CMS_Project/app/controllers/users_controller.rb": {
         "lines": [
           1,
           1,
@@ -2710,7 +2710,7 @@
           null
         ]
       },
-      "C:/CCI/cms/app/controllers/academics_controller.rb": {
+      "C:/Assignment/CMS_Project/app/controllers/academics_controller.rb": {
         "lines": [
           1,
           1,
@@ -2781,7 +2781,7 @@
           null
         ]
       },
-      "C:/CCI/cms/app/controllers/assessment_questions_controller.rb": {
+      "C:/Assignment/CMS_Project/app/controllers/assessment_questions_controller.rb": {
         "lines": [
           1,
           1,
@@ -2894,7 +2894,7 @@
           null
         ]
       },
-      "C:/CCI/cms/app/controllers/assessments_controller.rb": {
+      "C:/Assignment/CMS_Project/app/controllers/assessments_controller.rb": {
         "lines": [
           1,
           1,
@@ -3054,7 +3054,7 @@
           null
         ]
       },
-      "C:/CCI/cms/app/controllers/interests_controller.rb": {
+      "C:/Assignment/CMS_Project/app/controllers/interests_controller.rb": {
         "lines": [
           1,
           null,
@@ -3158,7 +3158,7 @@
           null
         ]
       },
-      "C:/CCI/cms/app/controllers/options_controller.rb": {
+      "C:/Assignment/CMS_Project/app/controllers/options_controller.rb": {
         "lines": [
           1,
           1,
@@ -3231,7 +3231,7 @@
           null
         ]
       },
-      "C:/CCI/cms/app/controllers/qualifications_controller.rb": {
+      "C:/Assignment/CMS_Project/app/controllers/qualifications_controller.rb": {
         "lines": [
           1,
           null,
@@ -3335,6 +3335,6 @@
         ]
       }
     },
-    "timestamp": 1688470397
+    "timestamp": 1688532569
   }
 }

@@ -95,7 +95,7 @@ RSpec.describe User, type: :model do
   describe '#generate_jwt' do
     let(:user) { create(:user) }
     let(:jwt_payload) { { "jti" => user.jti } }
-    let(:secret_key_base) { Rails.application.credentials.fetch(:secret_key_base) }
+    let(:secret_key_base) { Rails.application.credentials.secret_key_base }
 
     it 'generates a JWT token' do
       expect(JWT).to receive(:encode).with(jwt_payload, secret_key_base)

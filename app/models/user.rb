@@ -19,6 +19,6 @@ class User < ApplicationRecord
   end
 
   def generate_jwt
-    JWT.encode(jwt_payload, Rails.application.credentials.fetch(:secret_key_base))
+    JWT.encode(jwt_payload, Rails.application.credentials.secret_key_base )
   end
 end
